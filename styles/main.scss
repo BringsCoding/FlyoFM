@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* BACKGROUND-COLOR */
+@import "global/background-color";
+
+/* FONTS */
+@import "global/fonts";
+
+/* NAVBAR */
+@import "sections/navbar";
+
+/* HERO*/
+@import "sections/hero";

@@ -1,0 +1,45 @@
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__wrapper {
+  display: flex;
+  margin-top: 5em;
+  justify-content: space-between;
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+  }
+  .hero__form {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    width: 90%;
+  }
+  #email {
+    width: 65%;
+    padding-left: 1em;
+  }
+  #button {
+    width: 30%;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: azure;
+  }
+  .hero__img {
+    width: 50%;
+    object-fit: contain;
+  }
+}
+
+h1 {
+  font-size: 2.5em;
+}
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
