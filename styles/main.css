@@ -84,6 +84,8 @@
 
 /* NAVBAR */
 .navbar {
+  width: 90%;
+  max-width: 1400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,7 +95,6 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  width: 90%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 3rem;
@@ -152,6 +153,7 @@
 
 /* HERO*/
 .container {
+  max-width: 1400px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -280,7 +282,7 @@
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 @media screen and (max-width: 630px) {
@@ -298,5 +300,143 @@ h1 {
   .hero p {
     text-align: center;
   }
+}
+
+/* PRODUCTIVE */
+.productive__wrapper {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 630px) {
+  .productive__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.productive__wrapper h2 {
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 630px) {
+  .productive__wrapper h2 {
+    text-align: center;
+  }
+}
+
+.productive__wrapper img {
+  width: 40%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (max-width: 630px) {
+  .productive__wrapper img {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+.productive__wrapper p {
+  width: 60%;
+}
+
+@media screen and (max-width: 630px) {
+  .productive__wrapper p {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.productive__wrapper a {
+  text-decoration: none;
+}
+
+.productive__wrapper a:after {
+  content: url(/images/icon/icon-arrow.svg);
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+
+.productive__content__atag__border__bottom {
+  width: 21%;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid;
+}
+
+.productive__card {
+  background-color: aquamarine;
+  border-radius: 5px;
+  width: 60%;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1115px) {
+  .productive__card {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .productive__card {
+    width: 95%;
+  }
+}
+
+.productive__card .productive__card__para {
+  line-height: 1.5em;
+  font-size: 1em;
+  width: 100%;
+}
+
+.productive__card__person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.productive__card__person img {
+  width: 12%;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.productive__card__person .productive__card__person__para {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.productive__card__person .productive__card__person__para .productive__card__person__name__p {
+  font-size: 1em;
+}
+
+.productive__card__person .productive__card__person__para .productive__card__person__founder__p {
+  font-size: 0.8em;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
